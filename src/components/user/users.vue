@@ -225,7 +225,7 @@ export default {
                 // email:''
 
             },
-            mg_state:'',
+            
         //    修改数据验证的规则
         editFormRules:{
              email: [{

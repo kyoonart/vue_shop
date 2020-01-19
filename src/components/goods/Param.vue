@@ -67,7 +67,7 @@
         <el-tab-pane label="静态属性" name="only">
           <!-- 添加属性的按钮 -->
           <el-button type="primary" size="mini" :disabled="isBtnDisabled" @click="addDialogVisible=true">添加属性</el-button>
-          <!-- 静态属性表格 -->
+          <!-- 静 态属性表格 -->
           <el-table :data="onlyTableData" border stripe>
             <!-- 展开行 -->
            <el-table-column type="expand">
@@ -380,7 +380,6 @@ export default {
         this.$nextTick(_ => {
           this.$refs.saveTagInput.$refs.input.focus();
         });
-
     }
 
   },

@@ -340,14 +340,13 @@ export default {
             this.saveAttrvals(row)
         },
         async saveAttrvals(row) {
-            const { data: res } = await this.$http.put(`categories/${this.cateId}/attributes/${row.attr_id}`, {
-                atrr_name: row.attr_nam,
+            const { data: res } = await this.$http.put(`categories/ ${this.cateId} /attributes/ ${row.attr_id} `, {
+                attr_name: row.attr_name,
                 attr_sel: row.attr_sel,
                 attr_vals: row.attr_vals.join(' ')
             })
             if (res.meta.status !== 200) {
                 return this.$message.error('修改失败!!!');
-
             }
 
             this.$message.success('修改成功')

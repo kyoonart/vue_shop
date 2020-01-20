@@ -85,7 +85,7 @@ export default {
             // 商品分类的数据 默认为空
             cateList: [],
             // 商品总条数
-            total: '',
+            total: 0,
             columns: [{
                     label: '分类名称',
                     prop: 'cat_name'

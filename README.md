@@ -158,7 +158,7 @@ axios.interceptors.request.use(config=>{
       import TreeTable from 'vue-table-with-tree-grid'
       .....
       Vue.config.productionTip = false
-+ ![image-20200121124805086](C:\Users\彭涛\AppData\Roaming\Typora\typora-user-images\image-20200121124805086.png)
++ ![1FImVA.jpg](https://s2.ax1x.com/2020/01/21/1FImVA.jpg)
 
 
 
@@ -250,7 +250,7 @@ axios.interceptors.response.use(config =>{
   在项目根目录中创建vue.config.js文件
 
 + 项目上线
-  ####A.通过node创建服务器
+  通过node创建服务器
   在vue_shop同级创建一个文件夹vue_shop_server存放node服务器
   使用终端打开vue_shop_server文件夹，输入命令 npm init -y
   初始化包之后，输入命令 npm i express -S

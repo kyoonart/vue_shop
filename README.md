@@ -57,7 +57,7 @@ G.将本地项目托管到github
 │     |      ├─     home.vue           主页组件  
 │     │      ├─     Login.vue          登录组件
 │     |      ├─     welcome.vue        欢迎页组件        
-│     └─-plugins                      Element-ui组件
+│     └─-plugins                       Element-ui组件
 │     │       element.js                 
 │     │
 │     └─-router                       路由组件

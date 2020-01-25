@@ -61,7 +61,7 @@ G.将本地项目托管到github
 │     │       element.js                 
 │     │
 │     └─-router                       路由组件
-│     |       index.js				        路由规则组件
+│     |       index.js				      路由规则组件
 |     |
 ```
 

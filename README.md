@@ -31,7 +31,7 @@ G.将本地项目托管到github
 ├─src   
 |     └─-- assets                      默认样式表 
 |     |        global.css                
-|	  └─--  fonts				   图标文件夹一些好看的图标
+|	  └─--  fonts				     图标文件夹一些好看的图标
 |     |        demo.css
 |     |        iconfont.css
 |     |        iconfont.eot
@@ -40,9 +40,9 @@ G.将本地项目托管到github
 |     |        iconfont.ttf
 |     |        iconfont.woff
 |     └─-  components                 通用组件文件夹
-│     |      └─-goods 		         商品管理组件库
-│     │      |      Add.vue	        添加商品组件	 
-│     │	     |      Cate.vue          商品权限组件
+│     |      └─-goods 		       商品管理组件库
+│     │      |      Add.vue	       添加商品组件	 
+│     │	     |      Cate.vue         商品权限组件
 │     │      |      List.vue	       商品列表组件
 │     │      |      Params.vue        商品分类组件
 │     │      |      Echars.vue        数据统计组件
@@ -61,7 +61,7 @@ G.将本地项目托管到github
 │     │       element.js                 
 │     │
 │     └─-router                       路由组件
-│     |       index.js路由规则组件
+│     |       index.js                路由规则组件
 |     |
 ```
 

@@ -26,12 +26,12 @@ G.将本地项目托管到github
 
 ```
 ├─public                            打包发布文件夹 
-├─ App.vue                             项目根组件
-├─ main.js                             项目入口js
+├─ App.vue                          项目根组件
+├─ main.js                          项目入口js
 ├─src   
-|     └─-- assets                      默认样式表 
+|     └─-- assets                    默认样式表 
 |     |        global.css                
-|	  └─--  fonts				     图标文件夹一些好看的图标
+|	  └─--  fonts		     图标文件夹一些好看的图标
 |     |        demo.css
 |     |        iconfont.css
 |     |        iconfont.eot
@@ -40,28 +40,27 @@ G.将本地项目托管到github
 |     |        iconfont.ttf
 |     |        iconfont.woff
 |     └─-  components                 通用组件文件夹
-│     |      └─-goods 		       商品管理组件库
-│     │      |      Add.vue	       添加商品组件	 
-│     │	     |      Cate.vue         商品权限组件
-│     │      |      List.vue	       商品列表组件
+│     |      └─-goods 		      商品管理组件库
+│     │      |      Add.vue	      添加商品组件	 
+│     │	     |      Cate.vue          商品权限组件
+│     │      |      List.vue	      商品列表组件
 │     │      |      Params.vue        商品分类组件
 │     │      |      Echars.vue        数据统计组件
 │     │      └─-order                 订单管理组件
 │     │      |      Order.vue         订单列表组件
-|     |      |      citydata.js	 	 全国地址文件
+|     |      |      citydata.js	      全国地址文件
 │     |      └─power                  商品权限组件库
 │     │      |      Rights.vue        权限列表组件 
 │     |      |      Roles.vue         角色权限组件
 │     |      └─user                   用户有关组件    
-│     |      |                                   
-│     |      ├─     home.vue           主页组件  
-│     │      ├─     Login.vue          登录组件
-│     |      ├─     welcome.vue        欢迎页组件        
-│     └─-plugins                       Element-ui组件
-│     │       element.js                 
+│     |      ├─     home.vue          主页组件  
+│     │      ├─     Login.vue         登录组件
+│     |      ├─     welcome.vue       欢迎页组件        
+│     └─-plugins                      Element-ui组件
+│     │      element.js                 
 │     │
 │     └─-router                       路由组件
-│     |       index.js                路由规则组件
+│     |      index.js                 路由规则组件
 |     |
 ```
 
@@ -270,9 +269,9 @@ app.listen(8080,()=>{
 ```
 
 + 使用pm2管理应用
-  打开vue_shop_server文件夹的终端，输入命令：npm i pm2 -g
-  使用pm2启动项目，在终端中输入命令：pm2 start app.js --name 自定义名称
-  查看项目列表命令：pm2 ls
-  重启项目：pm2 restart 自定义名称
-  停止项目：pm2 stop 自定义名称
-  删除项目：pm2 delete 自定义名称
+ - 打开vue_shop_server文件夹的终端，输入命令：npm i pm2 -g
+ - 使用pm2启动项目，在终端中输入命令：pm2 start app.js --name 自定义名称
+ - 查看项目列表命令：pm2 ls
+ - 重启项目：pm2 restart 自定义名称
+ - 停止项目：pm2 stop 自定义名称
+ - 删除项目：pm2 delete 自定义名称

@@ -12,13 +12,13 @@
 
 ### 2.项目初始化
 
-A.安装Vue脚手架
-B.通过脚手架创建项目
-C.配置路由
-D.配置Element-UI:在插件中安装，vue-cli-plugin-element
-E.配置Axios：在依赖中安装,搜索axios(运行依赖)
-F.初始化git仓库
-G.将本地项目托管到github
+- A.安装Vue脚手架
+- B.通过脚手架创建项目
+- C.配置路由
+- D.配置Element-UI:在插件中安装，vue-cli-plugin-element
+- E.配置Axios：在依赖中安装,搜索axios(运行依赖)
+- F.初始化git仓库
+- G.将本地项目托管到github
 
 ### 3.项目详情
 
@@ -31,7 +31,7 @@ G.将本地项目托管到github
 ├─src   
 |     └─-- assets                    默认样式表 
 |     |        global.css                
-|	  └─--  fonts		     图标文件夹一些好看的图标
+|     └─--  fonts		     图标文件夹一些好看的图标
 |     |        demo.css
 |     |        iconfont.css
 |     |        iconfont.eot

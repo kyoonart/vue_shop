@@ -15,7 +15,7 @@
 A.安装Vue脚手架
 B.通过脚手架创建项目
 C.配置路由
-D.配置Element-UI:在插件中安装，搜索vue-cli-plugin-element
+D.配置Element-UI:在插件中安装，vue-cli-plugin-element
 E.配置Axios：在依赖中安装,搜索axios(运行依赖)
 F.初始化git仓库
 G.将本地项目托管到github
@@ -102,7 +102,7 @@ export default {
 
 + axios请求拦截器
 
-后台除了登录接口之外，都需要token权限验证，我们可以通过添加axios请求拦截器来添加token，以保证拥有获取数据的权限
+后台除了登录接口之外，都需要token权限验证，可以通过添加axios请求拦截器来添加token，以保证拥有获取数据的权限
 在main.js中添加代码，在将axios挂载到vue原型之前添加下面的代码
 
 ```
